@@ -28,7 +28,7 @@ Node* insert(Node* node, int data) {
     return node;
 }
 
-// функція копіювання лівих піддерев
+// функція копіювання лівих гілок
 void copyLeftNodes(Node* sourceTree, Node*& targetTree) {
     if (sourceTree == NULL) {
         return;
